@@ -8,6 +8,8 @@
 
 ```js
 $('#id').jufrontDrawer({
+    mask:false,
+    maskColor:'0,0,0,.5',
     success:function(){
 
     }
@@ -43,8 +45,6 @@ $('#id').jufrontDrawer({
 类型 : `String`
 
 默认值 : '255,255,255,.5'
-
-**@fixed 此处有待优化：想要透明背景且可点击关闭时，设置为`false`无法实现**
 
 **`success`**
 
